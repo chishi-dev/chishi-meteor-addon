@@ -7,7 +7,7 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 public class KickOrBan extends Module {
 
     public KickOrBan() {
-        super(ChiShiAddon.CATEGORY, "kick or ban", "Either get kick or ban");
+        super(ChiShiAddon.CATEGORY, "kick-or-ban", "Either get kick or ban");
     }
     @Override
     public void onActivate() {
