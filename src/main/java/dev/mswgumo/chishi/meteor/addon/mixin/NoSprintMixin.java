@@ -15,8 +15,12 @@ import java.util.Objects;
 public class NoSprintMixin {
     @Inject(method = "setSprinting", at = @At("HEAD"), cancellable = true)
     private void onSetSprinting(boolean sprinting, CallbackInfo ci) {
+        // 如果是设置为疾跑就强制返回
         if (Objects.requireNonNull(Modules.get().get(NoSprint.class)).isActive()) {
-            ci.cancel();
+            if (sprinting) {
+                ci.cancel();
+            }
+            return;
         }
 
     }
