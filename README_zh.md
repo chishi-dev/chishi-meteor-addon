@@ -36,7 +36,7 @@
 
 
 # 构建
- - 执行 `git clone https://github.com/mswgumo/chishi-meteor-addon.git`
+ - 执行 `git clone https://github.com/chishi-dev/chishi-meteor-addon.git`
 
  - 执行 `cd chishi-meteor-addon`
 

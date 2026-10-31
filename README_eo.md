@@ -32,7 +32,7 @@ Necesas instali MeteorClient por uzi ĝin
 | **Rotate** | Vere giganta turbo |
 
 # Konstruado
-- Rulu `git clone https://github.com/mswgumo/chishi-meteor-addon.git`
+- Rulu `git clone https://github.com/chishi-dev/chishi-meteor-addon.git`
 - Rulu `cd chishi-meteor-addon`
 - Rulu `./gradlew build`
 

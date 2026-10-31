@@ -36,7 +36,7 @@ You must install MeteorClient before using this addon.
 
 ## Build
 
-- Run `git clone https://github.com/mswgumo/chishi-meteor-addon.git`
+- Run `git clone https://github.com/chishi-dev/chishi-meteor-addon.git`
 - Run `cd chishi-meteor-addon`
 - Run `./gradlew build`
 
